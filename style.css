@@ -8,6 +8,7 @@
 .card-img {
   height: 300px;
   width: 300px;
+  object-fit:fill; 
   margin-top: 20px;
   border: 3px solid white;
   border-radius: 34px;
@@ -105,21 +106,13 @@ justify-content:space-around;
   height: 300px;
   width: 300px;
   margin-top: 20px;
+  object-fit:fill; 
   border-radius: 34px;
   border-radius: 50px;
   background: #ffc3c3;
-  box-shadow:
-               20px 20px 3px #232121;              
+  box-shadow:20px 20px 3px #232121;              
 }
-@media (max-width:576px){
-.common{
-height:500px;
-width:400px;
 
-
-
-
-}
 
 
 
